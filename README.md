@@ -24,8 +24,8 @@
 
 dataset/
 ├── images/
-│ ├── train/
-│ └── val/
+│   ├── train/
+│   └── val/
 └── labels/
 ├── train/
 └── val/
@@ -80,4 +80,5 @@ yolo detect predict model="runs/detect/train/weights/best.pt" source="dataset/im
 Результаты будут сохранены в:
 ```bash
 runs/detect/predict/
+
 ```
